@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script src="test.js"></script>
+<title> Form validation </title>
+</head>
+<body>
+    <header>
+        <center>
+     <h1>Formulaire d'inscription</h1>
+       </center>  
+    </header>
+    <main>
+<form class="cases">
+<ul>
+<li><label for="nom">Nom</label><input type="text" name="nom" id="nom" /></li>
+<li><label for="prenom">Prénom</label><input type="text" name="prenom" id="prenom" /></li>
+<li><label for="age">Age</label><input type="text" name="age" id="age" /></li>
+<li><label for="age">Adresse</label><input type="text" name="adress" id="adress" /></li>
+<li><label for="age">Adresse-email</label><input type="text" name="adress-email" id="adress-email"/></li>
+<li><label for="age">PassWord</label><input type="text" name="password" id="password"  /></li>
+<li><label for="html">HTML</label><input type="checkbox" id="html" /></li>
+<li><label for="css">CSS</label><input type="checkbox" id="css" /></li>
+<li><label for="php">PHP</label><input type="checkbox" id="php" /></li>
+<li><label for="c">C</label><input type="checkbox" id="c" /></li>
+<li><label for="java">Java</label><input type="checkbox" id="java" /></li>
+<li>Votre message:<br/><textarea name="message" rows="4" cols="6" ></textarea></li>
+<li>
+<select name="niveau">
+<option value="0">Débutant</option>
+<option value="1">Confirmé</option>
+<option value="2">Expert</option>
+</select>
+</li>
+<li id="submit"><input type="button" id="envoyer" value="Envoyer" onclick='empty()'/>
+                <input type="reset" id="reset" value="Reset"/>
+</li>
+
+</ul>
+</form>
+    </main>
+</body>
+</html>
